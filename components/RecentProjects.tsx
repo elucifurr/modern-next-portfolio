@@ -32,7 +32,7 @@ const RecentProjects = () => {
                 </div>
                 <img
                   src={img}
-                  alt="cover"
+                  alt=""
                   className="z-10 absolute bottom-0"
                 />
               </div>

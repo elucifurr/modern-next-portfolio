@@ -1,14 +1,15 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    //{ name: "Testimonials", link: "#testimonials" },
+    { name: "Experience", link: "#experience" },
     { name: "Contact", link: "#contact" },
   ];
   
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "I prioritize client collaboration, fostering open communication",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -38,7 +39,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "Tech enthusiast with a passion for development",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -49,7 +50,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently developing a video conferencing app using Next.js, Stream and Tailwind CSS",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,38 +73,38 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "MovieFlix - Web App to Fetch Movie Data from IMBD",
-      des: "React web app to search for movies using an API that provides information about movies",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      title: "MovieFlix - Fetch Movie Data from IMBD",
+      des: "React web app to search for movies using an API that provides information about movies.",
+      img: "/movieflix.png",
+      iconLists: ["/re.svg"],
       link: "https://github.com/elucifurr/movieflix",
-      live: "https://moviefliximdb.netlify.app/",
+      live: "https://moviefliximdb.netlify.app",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
-      live: "",
+      title: "Chef's Cookbook - Blog to browse Recipes",
+      des: "Search, Create and Share the best Recipes created by others in a Great and Innovative Community.",
+      img: "/chefscookbook.png",
+      iconLists: ["/next.svg", "/re.svg","/tail.svg"],
+      link: "https://github.com/elucifurr/chefscookbook",
+      live: "https://chefscookbook.vercel.app",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
+      title: "Nexus Banking",
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
-      live: "",
+      img: "/nexus.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg", "app.svg"],
+      link: "https://github.com/elucifurr/nexus-banking",
+      live: "https://nexus-banking.vercel.app",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      title: "Room - Video Conferencing app (WIP)",
+      des: "Simplify your video conferencing experience with Room. Seamlessly connect with colleagues and friends.",
+      img: "",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      link: "",
       live: "",
     },
   ];
@@ -144,30 +145,24 @@ export const navItems = [
   export const companies = [
     {
       id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
-    },
-    {
-      id: 2,
       name: "appwrite",
       img: "/app.svg",
       nameImg: "/appName.svg",
     },
     {
-      id: 3,
+      id: 2,
       name: "HOSTINGER",
       img: "/host.svg",
       nameImg: "/hostName.svg",
     },
     {
-      id: 4,
+      id: 3,
       name: "stream",
       img: "/s.svg",
       nameImg: "/streamName.svg",
     },
     {
-      id: 5,
+      id: 4,
       name: "docker.",
       img: "/dock.svg",
       nameImg: "/dockerName.svg",
@@ -177,29 +172,29 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
+      title: "Frontend Engineer",
       desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "FullStack Developer",
+      desc: "Built an entire banking platform to connect your bank accounts using Next.js, Plaid, Appwrite and Dwolla, allowing transactions.",
+      className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "UI/UX Designer",
+      desc: "Designed layout for multiple webs, e-commerce shops, appointment scheduling, bussiness services, etc.",
+      className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Workspace Account Manager",
+      desc: "Created a Google Bussiness Account, making it appear on search and maps, integrated scheduling components allowing book online.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
@@ -212,10 +207,6 @@ export const navItems = [
     },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
     },
   ];
