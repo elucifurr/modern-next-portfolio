@@ -92,7 +92,7 @@ export const navItems = [
     {
       id: 3,
       title: "Nexus Banking",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      des: "A REAL Banking App to link your bank account. Check your funds and make transactions using the latest tech stack.",
       img: "/nexus.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg", "app.svg"],
       link: "https://github.com/elucifurr/nexus-banking",
@@ -204,9 +204,11 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/elucifurr",
     },
     {
       id: 2,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/mario-segundo-galindo",
     },
   ];
